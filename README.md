@@ -4,7 +4,6 @@ I built a web application that scrapes various websites for data related to the 
 
 ## Step 1 - Scraping
 
-Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 Used a Jupyter Notebook called `mission_to_mars_FH.ipynb` with BeautifulSoup, Pandas, and Requests to scrape related to Mars website.
 
 ### NASA Mars News
@@ -50,7 +49,7 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 * Start by converting Jupyter notebook into a Python script called `scrape_mars.py` with a function that will execute all of your scraping code from above and return one Python dictionary containing all of the scraped data.
 
-* Next, create a route called `/scrape` that will import your `scrape_mars.py` script and call your `scrape` function.
+* Next, create a Python script called `mars_app.py` and a route called `/scrape` that will import your `scrape_mars.py` script and call your function.
 
   * Store the return value in Mongo as a Python dictionary.
 
